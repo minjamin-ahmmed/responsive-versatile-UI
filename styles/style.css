@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Style */
+.inter{
+    font-family: "Inter", sans-serif;
+}
+/* Download Font from da-font*/
+@font-face {
+    font-family: 'miama';
+    src: url(../fonts/Miama.ttf);
+}
+
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+
+/* Banner Container Styles */
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 58px 190px;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(#000000, #2D3436 );
+
+}
+
+.navigation-bar h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.navigation-bar {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+
+}
+
+.links{
+    gap: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding:8px 20px 8px 0px;
+    
+}
+
+
+.links .link-item{
+    list-style: none;
+}
+
+.link-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.bars{
+    display: none;
+}
+
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* banner-text-and-image-container */
+
+.banner-text-and-image-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    max-width: 520px;
+}
+.heading-span{
+    color: rgb(255, 255, 255);
+    font-family: 'miama';
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 28px;
+}
+.banner-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 28px; 
+    max-width: 520px;
+}
+
+.btn-primary{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);   
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px; 
+    border: 1px solid rgb(230, 83, 60);
+    margin-right: 14px;
+}
+
+.btn-secondary{
+    padding: 16px 40px;
+    border-radius: 42px;  
+    color: rgb(255, 255, 255);
+    background:#000000;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px; 
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);    
+}
+.banner-image-container{
+    max-width: 350px;
+    position: relative;
+}
+
+
+
+.video-tutorial-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    gap: 8px;
+    align-items: center;
+    padding: 20px 23px;
+    max-width: 200px;
+    position: absolute;
+    top: 78%;
+    transform: translate(-52%);
+}
+
+
+.video-tutorial h4{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.video-tutorial p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;   
+}
+
+.free-videos{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 17px 24px;
+    max-width: 200px;
+    position: absolute;
+    top: 38%;
+    transform: translate(130%);
+}
+
+.free-videos h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.free-videos p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* Responsive Layout for Mobile Phone */
+@media screen and (max-width: 576px) {
+
+.links{
+    border: none;
+}
+.link-item{
+    display: none;
+
+}
+
+.bars{
+    display: block;
+    font-size: 20px;
+    color: rgb(230, 83, 60);
+}
+
+
+
+.banner-container{
+    max-width: 393px;
+    width:100%;
+    margin: 0 auto;
+    padding:52px 20px;
+
+}
+
+.banner-text-and-image-container{
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner-text-container h1{
+    font-size: 2.2rem;
+    max-width: 285px;
+    width: 100%;
+    margin-bottom:28px;
+}
+
+.heading-span{
+    font-size: 4rem;
+}
+
+.banner-text-container{
+    max-width: 352px;
+    width: 100%;
+}
+
+.banner-text-container p{
+    font-size: 1rem;
+    max-width: 274px;
+    width: 100%;
+    margin-bottom:28px;
+}
+
+.banner-image-container{
+    
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-tutorial-container{
+    top: 45%;
+    transform: translate(-20%);
+    max-width: 155px;
+    width: 100%;
+}
+
+.video-tutorial-container h4{
+    font-size: 1rem;
+}
+
+.video-tutorial-container, .free-videos p{
+    font-size: 0.5rem;
+}
+
+.free-videos{
+    max-width: 145px;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translate(130%);
+}
+.free-videos h3{
+    font-size: 1.8rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn-primary{
+    max-width: 169px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.btn-secondary{
+    max-width: 169px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+
+}

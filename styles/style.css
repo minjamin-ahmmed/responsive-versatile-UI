@@ -22,7 +22,7 @@
 .banner-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 58px 190px;
+    padding: 58px 190px 0px 190px;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     background: linear-gradient(#000000, #2D3436 );
 
@@ -99,7 +99,6 @@
     font-size: 4.8rem;
     font-weight: 400;
     line-height: 120%;
-    margin-bottom: 28px;
 }
 .banner-text-container p{
     color: rgba(255, 255, 255, 0.5);
@@ -154,7 +153,7 @@
     padding: 20px 23px;
     max-width: 200px;
     position: absolute;
-    top: 78%;
+    top: 71%;
     transform: translate(-52%);
 }
 
@@ -184,7 +183,7 @@
     padding: 17px 24px;
     max-width: 200px;
     position: absolute;
-    top: 38%;
+    top: 20%;
     transform: translate(130%);
 }
 
@@ -202,6 +201,133 @@
     font-weight: 400;
     line-height: 20px;
 }
+
+
+/* change-habit-container Styles */
+.change-habit-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 58px 190px;
+    background-color:black;
+}
+
+.change-habit-element{
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.change-habit-text-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.change-habit-text-container p{
+    max-width: 671px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    text-align: center;
+    
+}
+
+.movement-container {
+    flex-direction: column;
+}
+
+.image{
+    max-width: 272px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.movement-heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.movement-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.run-container{
+    max-width: 970px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px 32px 40px 54px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.run-text-container h2{
+max-width: 443px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+margin-bottom: 14px;
+}
+
+.run-text-container p{
+    max-width: 443px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 34px;
+} 
+
+.btn-third{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);   
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    padding:16px 40px 16px 40px;
+    border: none;
+}
+
+
+.run-image-container {
+    max-width: 366px;
+}
+.run-image-container img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+
 
 
 /* Responsive Layout for Mobile Phone */
@@ -224,9 +350,8 @@
 
 .banner-container{
     max-width: 393px;
-    width:100%;
     margin: 0 auto;
-    padding:52px 20px;
+    padding:52px 20px 0px 20px;
 
 }
 
@@ -248,13 +373,11 @@
 
 .banner-text-container{
     max-width: 352px;
-    width: 100%;
 }
 
 .banner-text-container p{
     font-size: 1rem;
     max-width: 274px;
-    width: 100%;
     margin-bottom:28px;
 }
 
@@ -314,5 +437,179 @@
     box-sizing: border-box;
 }
 
+/* Change Habit Container */
+
+.change-habit-container{
+    max-width: 415px;
+    margin: 0 auto;
+    padding: 8px 8px;
+}
+.change-habit-element{
+    max-width: 318px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+}
+
+.grid-container{
+    grid-template-columns: 1fr;
+}
+
+.change-habit-text-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.change-habit-text-container p{
+    max-width: 671px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.run-container{
+    flex-direction: column;
+    justify-content: start;
+    max-width: 353px;
+    padding: 30px;
+}
+.run-text-container h2{
+    max-width: 287px;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+    
+.run-text-container p{
+        max-width: 287px;
+} 
+
+.btn-third{
+    width: 287px;
+    padding: 16px 40px 16px 40px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+}
+/* Ipad Layout */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .banner-container      {
+        max-width: 768px;
+        width:100%;
+        margin: 0 auto;
+        padding:52px 30px;
+    
+    }
+    
+    .banner-text-and-image-container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .banner-text-container h1{
+        font-size: 4.8rem;
+        max-width: 600px;
+        width: 100%;
+        margin-bottom:28px;
+    }
+
+    .heading-span{
+        font-size: 4.8rem;
+    }
+    
+    .banner-text-container{
+        max-width: 600px;
+        width: 100%;
+        margin: auto 72px;
+    }
+    .banner-text-container p{
+        font-size: 1rem;
+        max-width: 600px;
+        width: 100%;
+        margin-bottom:28px;
+    }
+    
+    .banner-image-container{
+        
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .video-tutorial-container{
+        top: 55%;
+        transform: translate(-20%);
+        max-width: 206px;
+        width: 100%;
+    }
+
+    .video-tutorial-container h4{
+        font-size: 1.5rem;
+    }
+    
+    .video-tutorial-container, .free-videos p{
+        font-size: 1rem;
+    }
+    
+    .free-videos{
+        max-width: 193px;
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        left: -12%;
+        transform: translate(130%);
+    }
+    .free-videos h3{
+        font-size: 1.8rem;
+    }
+
+    .links{
+        gap:20px;
+    }
+
+    .navigation-bar{
+        justify-content: space-between;
+        margin-bottom:75px;
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: start;
+    }
+    
+    .btn-primary{
+        max-width: 224px;
+        width: 100%;
+        font-size: 1.1rem;
+        font-weight: 600;
+        box-sizing: border-box;
+    }
+    
+    .btn-secondary{
+        max-width: 224px;
+        width: 100%;
+        font-size: 1.1rem;
+        font-weight: 600;
+        box-sizing: border-box;
+    }
+    
+
+
+    
 
 }

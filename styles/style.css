@@ -63,12 +63,11 @@
     font-family: Inter;
     font-size: 1.2rem;
     font-weight: 400;
-}
-.bars{
-    display: none;
+    margin-left: 15px;
 }
 
-.home{
+nav ul li a.home,
+nav ul li a:hover{
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 12px 24px 12px 24px;
@@ -77,8 +76,19 @@
     font-size: 1.2rem;
     font-weight: 600;
     border: none;
-    margin-left: 3px;
+    margin-left: 3px; 
+
+
 }
+
+
+.bars{
+    display: none;
+}
+
+
+
+
 
 /* banner-text-and-image-container */
 

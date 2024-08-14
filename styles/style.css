@@ -63,10 +63,10 @@
     font-family: Inter;
     font-size: 1.2rem;
     font-weight: 400;
-    margin-left: 15px;
+    margin-left: 5px;
 }
-
-nav ul li a.home,
+/* If I want to Hover then! */
+/* nav ul li a.home, 
 nav ul li a:hover{
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -78,8 +78,18 @@ nav ul li a:hover{
     border: none;
     margin-left: 3px; 
 
-
+} */
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 12px 24px 12px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none; 
 }
+
 
 
 .bars{
@@ -1009,9 +1019,8 @@ li{
 
 .video-tutorial-container{
     top: 45%;
-    transform: translate(-20%);
-    max-width: 155px;
-    width: 100%;
+    transform: translate(-15%);
+    width: 200px;
 }
 
 .video-tutorial-container h4{
@@ -1027,7 +1036,7 @@ li{
     width: 100%;
     position: absolute;
     top: 10%;
-    transform: translate(130%);
+    transform: translate(135%);
 }
 .free-videos h3{
     font-size: 1.8rem;
@@ -1042,11 +1051,14 @@ li{
 
 .btn-primary{
     width: 200px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     box-sizing: border-box;
 }
 
+.span{
+    display: none;
+}
 .btn-secondary{
     max-width: 169px;
     width: 100%;
@@ -1162,7 +1174,8 @@ font-size: 2.2rem;
     font-size: 0.8rem;
 }
 .exercise1-text p{
-    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
 }
 .exercise2-text p{
     font-size: 0.5rem;
@@ -1302,6 +1315,8 @@ td{
         border: none;
         margin-bottom: 34px;
     }
+      
+    
 /* meet team container Styles */
 .meet-team-container{
     max-width: 393px;
@@ -1343,6 +1358,14 @@ td{
 
 .meet-team-image-container p{
     font-size: 0.8rem;
+}
+
+.trainer1-image{
+    display: none ;
+}
+
+.trainer4-image{
+    display: none ;
 }
 
 /* Footer Container */
